@@ -1,0 +1,23 @@
+.result {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  &-header {
+    &-link {
+      color: black;
+    }
+    &-title {
+      margin-top: 3px;
+      margin-bottom: 0;
+      &-link {
+        text-decoration: none;
+      }
+      &-link:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &-description-text {
+    margin-top: 5px;
+  }
+}

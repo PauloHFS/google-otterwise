@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/index.scss" />
+
     <title>Google</title>
   </head>
   <body>
     <main class="container">
-      <input type="text" name="busca" id="busca" />
-      <button>Procurar</button>
+      <input type="text" name="searchField" id="searchField" class="input" />
+      <button id="searchButton" class="button">Procurar</button>
+      <section class="results"></section>
     </main>
-    <script src="./scripts/googleAPI.js"></script>
+    <script src="./scripts/buscador.js"></script>
   </body>
 </html>

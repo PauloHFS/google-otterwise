@@ -19,3 +19,5 @@ const getSearch = async query => {
     console.error(error);
   }
 };
+
+export { getSearch };
