@@ -5,3 +5,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &-search {
+    display: flex;
+    align-items: center;
+
+    margin-left: 75px;
+  }
+}
