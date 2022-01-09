@@ -4,4 +4,4 @@
    1. Monte o layout bem parecido como o google faz.
    2. Crie um campo de busca, onde o usuário pode digitar qualquer coisa e após clicar em um botão de pesquisar, deve ser exibido os resultados na tela.
 
-<img scr="https://github.com/PauloHFS/google-otterwise/blob/main/src/assets/page.png" alt="Screenshot">
+<img scr="https://raw.githubusercontent.com/PauloHFS/google-otterwise/main/src/assets/page.png" alt="Screenshot">
